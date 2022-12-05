@@ -14,7 +14,7 @@ mobile_data = {
 #  Your Code Starts from here
 from random import choice
 data_list = mobile_data.get('data')
-ex_r = mobile_data.get('exchnage_rate')
+ex_r = mobile_data.get('exchnage_rate') 
 
 
 for data in data_list:
