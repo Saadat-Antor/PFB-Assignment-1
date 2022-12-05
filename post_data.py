@@ -39,7 +39,7 @@ post_data = [
 # Your Code Start from here
 
 for data in post_data:
-    slug = data.get('title').strip().replace(' ', '-')
+    slug = data.get('title').strip().replace(' ', '-') 
     data['slug'] = "-".join(slug.split('-')[:3])
 
 # Your code ends here

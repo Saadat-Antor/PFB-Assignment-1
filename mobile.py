@@ -18,7 +18,7 @@ ex_r = mobile_data.get('exchnage_rate')
 
 
 for data in data_list:
-    price_bdt = float(data.get('price').split()[0]) 
+    price_bdt = float(data.get('price').split()[0])
 
     lines = [
 
